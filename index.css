@@ -1,0 +1,476 @@
+html,
+body {
+    /*to restrict or disable horizontal scrolling */
+    max-width: 100%;
+    overflow-x: hidden;
+    transform: preserve-3d;
+    cursor: default;
+    user-select: none;
+    /*to disable text selection*/
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+#index {
+    position: absolute;
+    width: 2978px;
+    height: 800px;
+    background-color: rgba(216, 215, 216, 1);
+    overflow: hidden;
+}
+
+#outer-wrapper {
+    width: 100vh;
+    height: 103vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+#Dhruvam_Zaveri_ {
+    /*top,bottom -> left | -left -> top*/
+    position: absolute;
+    left: -50px;
+    top: -20px;
+    overflow: visible;
+    width: 3000px;
+    white-space: nowrap;
+    /* text-align: left; */
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 398px;
+    color: rgba(238, 237, 239, 1);
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+}
+
+.foreground {
+    position: absolute;
+    top: -50px;
+}
+
+#HamBurger_menu {
+    position: absolute;
+    width: 30px;
+    height: 12px;
+    left: 1350px;
+    top: 91px;
+    overflow: visible;
+}
+
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 30px;
+    height: 3px;
+    left: 0px;
+    top: 9px;
+    transition: .5s;
+}
+
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 30px;
+    height: 3px;
+    left: 0px;
+    top: 0px;
+    transition: .5s;
+}
+
+#HamBurger_menu.active .Rectangle_1 {
+    top: 4.5px;
+    transform: rotate(-45deg);
+}
+
+#HamBurger_menu.active .Rectangle_2 {
+    top: 4.5px;
+    transform: rotate(45deg);
+}
+
+#Text_1 {
+    position: absolute;
+    width: 326px;
+    height: 98px;
+    left: 215px;
+    top: 340px;
+    overflow: visible;
+}
+
+#is_a_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#Developer {
+    position: absolute;
+    left: 86px;
+    top: 0px;
+    overflow: visible;
+    width: 241px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 275px;
+    height: 3px;
+    left: 0px;
+    top: 95px;
+}
+
+#Text_2 {
+    position: absolute;
+    width: 422px;
+    height: 98px;
+    left: 756px;
+    top: 340px;
+    overflow: visible;
+}
+
+#based_in_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 200px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#Vadodara {
+    position: absolute;
+    left: 199px;
+    top: 0px;
+    overflow: visible;
+    width: 224px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+.Rectangle_3_r {
+    position: absolute;
+    overflow: visible;
+    width: 275px;
+    height: 3px;
+    left: 0px;
+    top: 95px;
+}
+
+#Text_3 {
+    position: absolute;
+    width: 477px;
+    height: 98px;
+    left: 1400px;
+    top: 340px;
+    overflow: visible;
+}
+
+#can_t_spell_ {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 235px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#rinasuraus {
+    position: absolute;
+    left: 86px;
+    top: 0px;
+    overflow: visible;
+    width: 244px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+.Rectangle_3_v {
+    position: absolute;
+    overflow: visible;
+    width: 275px;
+    height: 3px;
+    left: 0px;
+    top: 95px;
+}
+
+#Text_3_w {
+    position: absolute;
+    width: 342px;
+    height: 98px;
+    left: 2000px;
+    top: 340px;
+    overflow: visible;
+}
+
+#is_a__x {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 87px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#no_soy_boy {
+    position: absolute;
+    left: 205px;
+    top: 0px;
+    overflow: visible;
+    width: 257px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(26, 17, 20, 1);
+}
+
+.Rectangle_3_z {
+    position: absolute;
+    overflow: visible;
+    width: 275px;
+    height: 3px;
+    left: 0px;
+    top: 95px;
+}
+
+#Fixed_content {
+    position: fixed;
+}
+
+#hey_dhruvam_io {
+    position: absolute;
+    left: 345px;
+    top: 700px;
+    overflow: visible;
+    width: 161px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#hey_dhruvam_io a {
+    color: black;
+    text-decoration: none;
+}
+
+#Social {
+    position: absolute;
+    width: 379px;
+    height: 20px;
+    left: 620px;
+    top: 700px;
+    overflow: visible;
+}
+
+#Instagram {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 63px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#GitHub {
+    position: absolute;
+    left: 122px;
+    top: 0px;
+    overflow: visible;
+    width: 45px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#Twitter {
+    position: absolute;
+    left: 226px;
+    top: 0px;
+    overflow: visible;
+    width: 42px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#LinkedIn {
+    position: absolute;
+    left: 327px;
+    top: 0px;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#HackerRank {
+    position: absolute;
+    left: 439px;
+    top: 0px;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    height: 20px;
+    left: 1020px;
+    top: 84px;
+    overflow: visible;
+    color: black;
+    text-decoration: none;
+    animation: menu-animation 0.5s ease-in-out;
+}
+
+@keyframes menu-animation {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+#about {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#projects {
+    position: absolute;
+    left: 98px;
+    top: 0px;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+#resume {
+    position: absolute;
+    left: 206px;
+    top: 0px;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(26, 17, 20, 1);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
